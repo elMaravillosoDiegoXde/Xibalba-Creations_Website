@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+html,
+body {
+    position: relative; 
+    height: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(Images/TrilogíaBlumCopia.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #f69a2b;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25pt;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.swiper {
+    width: 100%;
+    padding: 150px 0 50px 0;
+}
+
+.swiper-slide {
+    width: 300px;
+    height: 500 px;
+    background-color: #f9fafcc9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.icons i {
+    font-size: 30px;
+    color: #f69a2b;
+}
+
+.icons img {
+    width: 120px;
+}
+
+.product-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-txt {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.product-txt span {
+    font-size: 25px;
+    color: #f69a2b;
+    font-weight: bold;
+}
+
+.product-txt h3 {
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.product-txt p {
+    font-size: 14px;
+    color: #323337;
+}
+
+.product-img {
+    flex-basis: 50px;
+    text-align: right;
+}
+
+.product-img img {
+    width: 140px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid #f69a2b;
+    border-radius: 25px;
+    color: #f69a2b;
+    text-decoration: none;
+    margin-top: 50px;
+}
